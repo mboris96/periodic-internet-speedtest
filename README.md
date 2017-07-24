@@ -11,12 +11,15 @@ Create a cron job to run script periodically.
 Add one of the following scripts to the cron job (replace path with actual path):
 
 Run once every hour...
+
 `* */1 * * * /path/to/speed/script.sh`
 
 Run once every 15 minutes...
+
 `*/15 * * * * /path/to/speed/script.sh`
 
 Run once every day...
+
 `* * */1 * * /path/to/speed/script.sh`
 
 Clear log by running `./clearlog.sh`
