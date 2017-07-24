@@ -4,7 +4,7 @@
 # Usage
 `./speed.sh` to run a speed test.
 
-Check your speedtest.log file for full results, run `./checklast.sh` for most recent result.
+Check your `speedtest.log` file for full results, run `./checklast.sh` for most recent result.
 
 Clear log by running `./clearlog.sh`.
 
