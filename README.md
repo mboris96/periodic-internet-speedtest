@@ -1,9 +1,16 @@
-# periodic-internet-speedtest
+# Setup
 `pip install speedtest-cli`
 
-`./speed.sh`
+# Usage
+`./speed.sh` to run a speed test.
 
-Check your speedtest.log file for results
+Check your speedtest.log file for full results, run `./checklast.sh` for most recent result.
+
+Clear log by running `./clearlog.sh`.
+
+May need to change your permissions of the script files to make them executable by running `sudo chmod 777 speed.sh`, `sudo chmod 777 clearlog.sh`, and `sudo chmod 777 checklast.sh`.
+
+# Setting Schedulized Testing
 
 Create a cron job to run script periodically.
 `crontab -e`
@@ -21,7 +28,3 @@ Run once every 15 minutes...
 Run once every day...
 
 `* * */1 * * /path/to/speed/script.sh`
-
-Clear log by running `./clearlog.sh`
-
-May need to change your permissions of the script files to make them executable by running `sudo chmod 777 speed.sh` and `sudo chmod 777 clearlog.sh`.
