@@ -6,9 +6,11 @@
 
 Check your `speedtest.log` file for full results, run `./checklast.sh` for most recent result.
 
+Check number of failed tests by using `failures.sh`.
+
 Clear log by running `./clearlog.sh`.
 
-May need to change your permissions of the script files to make them executable by running `sudo chmod 777 speed.sh`, `sudo chmod 777 clearlog.sh`, and `sudo chmod 777 checklast.sh`.
+May need to change your permissions of the script files to make them executable by running `sudo chmod 777 speed.sh`, `sudo chmod 777 clearlog.sh`, `sudo chmod 777 failures.sh`, and `sudo chmod 777 checklast.sh`.
 
 # Setting Schedulized Testing
 
