@@ -6,7 +6,7 @@
 
 Check your `speedtest.log` file for full results, run `./checklast.sh` for most recent result.
 
-Check number of failed tests by using `failures.sh`.
+Check number of failed tests by using `./failures.sh`.
 
 Clear log by running `./clearlog.sh`.
 
